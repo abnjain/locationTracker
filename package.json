@@ -1,0 +1,18 @@
+{
+  "name": "locationtracker",
+  "version": "1.0.0",
+  "description": "This a real time location tracker system which gives the realtime location of multiple users at a time and update it in every 5 secs to update the current location of the user.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abnjain",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "npm": "^10.8.1",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.5"
+  }
+}
