@@ -2,6 +2,7 @@ const express = require("express");
 const http = require("http");
 const path = require("path");
 const socketio = require("socket.io");
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -27,6 +28,6 @@ app.get("/", (req, res) => {
     res.render("index");
 });
 
-server.listen(3000, () => {
-    console.log("Server connected");
+server.listen(PORT, () => {
+    console.log("Server connected", PORT);
 });
